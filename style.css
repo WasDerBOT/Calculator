@@ -49,8 +49,11 @@ button:active{
 }
 #toprow{
     justify-content: right;
-    padding-right: 40px;
     align-items: center;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgba(121, 121, 121, 0.596);
 }
 p{
     font-size: 35px;
@@ -75,3 +78,14 @@ h1{
 #backspace{
     margin-left: 20px;
 }
+
+.act{
+    background-color: rgba(253, 107, 22, 0.822);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.418);
+}
+
+.act:hover{
+    background-color: rgba(253, 107, 22, 0.582);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.418);
+}
+
