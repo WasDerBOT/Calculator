@@ -74,5 +74,8 @@ function equal(){
         default:
             break;
     }
+    while (display.textContent.length > 15) {
+        display.textContent = display.textContent.slice(0,-1)
+    }
 }
 
