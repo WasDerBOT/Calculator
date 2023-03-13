@@ -14,7 +14,7 @@ function NumberClick(num) {
         IsPointed = true
     }
     
-    if (display.textContent.length == 15) {
+    if (display.textContent.length == 14) {
         return
     }
     if (display.textContent[0] == "0") {
@@ -74,7 +74,7 @@ function equal(){
         default:
             break;
     }
-    while (display.textContent.length > 15) {
+    while (display.textContent.length > 14) {
         display.textContent = display.textContent.slice(0,-1)
     }
 }
