@@ -7,7 +7,7 @@ firstSym = true
 otherSym = false
 function NumberClick(num) {
     
-    if (String(num) == ",") {
+    if (String(num) == ".") {
         if (IsPointed) {
             return
         }
@@ -18,7 +18,7 @@ function NumberClick(num) {
         return
     }
     if (display.textContent[0] == "0") {
-        if (display.textContent[1] !== ","){
+        if (display.textContent[1] !== "."){
             display.textContent = String(num)
         }
         else{
@@ -29,8 +29,8 @@ function NumberClick(num) {
         display.textContent += String(num)
         
     }
-    if (display.textContent == ","){
-        display.textContent = "0,"
+    if (display.textContent == "."){
+        display.textContent = "0."
     }
 }
 function Clear(){
