@@ -37,7 +37,7 @@ button{
     font-size: 20px;
 }
 button:hover{
-    background-color: rgba(211, 211, 211, 0.534);
+    background-color: rgba(211, 211, 211, 0.801);
 }
 button:active{
     flex-direction: 350ms;
